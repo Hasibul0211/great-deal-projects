@@ -1,0 +1,23 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-title{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.login-input{
+    margin: 2px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+.login-input:focus{
+  
+     border: 2px solid orange;
+     outline: 1px solid orange;
+}

@@ -1,0 +1,44 @@
+.header{
+background-color: black;
+margin: 0;
+padding: 3px;
+}
+.header{
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+.header h2{
+    padding: 0;
+    margin: 0;
+}
+.header-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 22%;
+    margin: 20px;
+    font-size: 22px;
+
+}
+.navbar-text{
+    font-weight: bold;
+    margin-right: 15%;
+    cursor: pointer;
+    font-size: 22px;
+}
+.searct-section{
+    width: 100%;
+display: flex;
+}
+.searct-section input[type=text]{
+   border: 1px solid;
+    width: 50%;
+    margin: 0% auto;
+    height: 40px;
+    border-radius: 10px;
+}
