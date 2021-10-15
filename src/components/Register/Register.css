@@ -1,0 +1,42 @@
+.register-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: rgb(235, 243, 243);
+    box-shadow: 1px 2px 2px 2px gainsboro;
+}
+.register-title{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+form label{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+}
+.register-input{
+    height: 40px;
+    width: 300px;
+    border: 2px solid orange;
+    border-radius: 5px;padding: 5px;
+}
+.register-input:focus{
+  
+     border: 2px solid orange;
+     outline: 1px solid orange;
+}
+
+
+
+@media screen and (max-width:680px) {
+    .register-form{
+        width: 95%;
+    }
+    
+}

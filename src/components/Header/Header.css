@@ -1,15 +1,13 @@
+
 .header{
-background-color: black;
-margin: 0;
-padding: 3px;
-}
-.header{
+    background-color: black;
     text-align: center;
     margin: 0;
-    padding: 2px;
+    padding: 7px;
     color: white;
     letter-spacing: 5px;
     font-size: 22px;
+
 }
 .header h2{
     padding: 0;
@@ -40,5 +38,16 @@ display: flex;
     width: 50%;
     margin: 0% auto;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:600px) {
+    .searct-section input[type=text]{
+   border: 1px solid;
+    width: 95%;
+    margin: 1px auto;
+    height: 40px;
+    border-radius: 5px;
+}
 }
